@@ -1,15 +1,68 @@
-# OS files
+# === OS files ===
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+desktop.ini
 
-# IDE
+# === IDE & Editor ===
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
 
-# Dependencies
+# === Dependencies ===
 node_modules/
+vendor/
+.pnpm-store/
 
-# Build
+# === Build & Dist ===
 dist/
 build/
+*.pyc
+__pycache__/
+*.class
+*.o
+*.so
+*.dll
+*.exe
+*.obj
+*.out
 
+# === Logs & Temp ===
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+*.bak
+
+# === Environment & Secrets ===
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+
+# === Package locks (optional, uncomment if needed) ===
+# package-lock.json
+# yarn.lock
+
+# === Coverage & Test ===
+coverage/
+.nyc_output/
+*.lcov
+
+# === Misc ===
+*.zip
+*.tar.gz
+*.rar
+*.7z
